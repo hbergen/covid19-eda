@@ -1,8 +1,8 @@
-#### Exploring covid-19 data for US states.
+### Exploring covid-19 data for US states.
 
 Running this code requires a Mac with python3 installed.
 
-###### Installing and running the notebook
+##### Installing and running the notebook
 1. Run the following lines in terminal
 
 ```bash
