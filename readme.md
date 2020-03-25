@@ -1,17 +1,19 @@
-Exploring covid-19 data.
+#### Exploring covid-19 data for US states.
 
-below instructions assume you have a Mac
+Running this code requires a Mac with python3 installed.
 
-1. run in terminal (requires python3 is installed)
+###### Installing and running the notebook
+1. Run the following lines in terminal
+
 ```bash
 git clone https://github.com/hbergen/covid19-eda.git
 cd covid19-eda
-python3 -m venv env
-source env/bin/activate
-pip install -r requirements.txt
-jupyter notebook
+python3 -m venv env # sets up a python environment
+source env/bin/activate # switches to the new environment
+pip install -r requirements.txt # installed package requirements
+jupyter notebook # runs the notebook!
 ```
 
-2. follow the instructions at the top of the `exploratory.ipynb` notebook to create a kaggle api key 
-3. run each cell in the notebook
-4. explore away!
+2. Follow the instructions at the top of the `exploratory.ipynb` notebook
+3. Run each cell in the notebook
+4. The final data is saved in `data/results.csv`. Explore away!
