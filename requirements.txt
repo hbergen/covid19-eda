@@ -1,7 +1,7 @@
 census==0.8.13
 certifi==2022.12.7
 chardet==3.0.4
-future==0.18.2
+future==0.18.3
 idna==2.9
 numpy==1.22.0
 pandas==1.0.3
